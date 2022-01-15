@@ -1,0 +1,19 @@
+$white:#fff;
+$black:#000000;
+$black-light:#3d3d3d;
+$accent:#f06c00;
+$grey:#535252;
+$grey-light:#f0eeee;
+
+@mixin clamp($row) {
+  -webkit-line-clamp: $row;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap: 30px;
+  }

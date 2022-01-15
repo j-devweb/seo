@@ -1,0 +1,50 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: $black;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 70px 0;
+}
+
+.btn {
+  padding: 5px 25px;
+  border-radius: 10px;
+  background-color: $accent;
+  color: $white;
+  border: 1px solid transparent;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 60%;
+  }
+}
+
+.title {
+text-align: center;
+font-size: 55px;
+color: $black;
+margin-bottom: 50px;
+line-height: 50px;
+
+span {
+  color: $accent;
+}
+}
+
+.subtitle {
+  font-size: 21px;
+  padding: 10px 0;
+}
+
